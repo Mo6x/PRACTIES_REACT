@@ -13,9 +13,11 @@ import Counter from './Components/Counter/Counter'
 class App extends Component {
     render() {
         return (
+            
             <div className='App'>
                 <>
-                    <Counter />
+                    <Greet name="Osawel" heroName="Christopher" />
+                    {/* <Counter /> */}
                     {/* <Message /> */}
                     {/* <Greet name="Christopher" heroName="Osawel" >
                       <p>I am just moving up and down</p>
